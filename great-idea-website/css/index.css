@@ -142,7 +142,7 @@ header {
     margin-left: 4%;
 }
 
-.two-col .first-col {
+.first-col {
     margin: 0;
 }
 
@@ -155,10 +155,6 @@ header {
     display: inline-block;
     width: 32%;
     margin-left: 2%;
-}
-
-.three-col .first-col {
-    margin: 0;
 }
 
 address {
