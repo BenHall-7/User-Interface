@@ -103,6 +103,9 @@ header {
 #header-top {
     text-align: center;
     padding: 20px 0;
+    position: fixed;
+    width: 90%;
+    background: #FFFFFFC0
 }
 
 #header-top nav {
@@ -122,7 +125,8 @@ header {
 }
 
 #header-bottom {
-    padding: 60px 0;
+    padding-top: 100px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -142,7 +146,7 @@ header {
     margin-left: 4%;
 }
 
-.first-col {
+.two-col .first-col {
     margin: 0;
 }
 
@@ -155,6 +159,15 @@ header {
     display: inline-block;
     width: 32%;
     margin-left: 2%;
+}
+
+.three-col .first-col {
+    margin: 0;
+}
+
+.two-col p, .three-col p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1em;
 }
 
 address {
