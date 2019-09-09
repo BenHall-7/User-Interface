@@ -96,6 +96,12 @@ a:hover {
     padding: 4px 40px;
 }
 
+@keyframes nav-anim {
+    to {
+        text-shadow: 0 0 2px #800000C0;
+    }
+}
+
 header {
     margin-bottom: 60px;
 }
@@ -122,6 +128,12 @@ header {
 #header-top nav a {
     margin-right: 10%;
     width: 5%;
+}
+
+#header-top nav a:hover {
+    animation-name: nav-anim;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 #header-bottom {
